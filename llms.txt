@@ -5,7 +5,7 @@
 ## Main pages
 - [Home](https://cleaningdigital.ca/): Overview of services for cleaning companies
 - [Services](https://cleaningdigital.ca/services.html): Brand design, web design, local SEO, AI SEO, Google Business Profile, Google Ads, Meta ads, booking systems, support
-- [Pricing](https://cleaningdigital.ca/pricing.html): Three fixed one-time website packages: $490, $650 and $780
+- [Pricing](https://cleaningdigital.ca/pricing.html): Three fixed one-time website packages: $799, $1,299 and $1,899 CAD
 - [Our work](https://cleaningdigital.ca/projects.html): Homepage designs built for cleaning companies
 - [About](https://cleaningdigital.ca/about.html): Nakul Chandra and how CleaningDigital works
 - [Contact](https://cleaningdigital.ca/contact.html): Book a discovery call
