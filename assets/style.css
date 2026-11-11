@@ -1037,3 +1037,8 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #DA
   .rv-toast a,.toast a,.tp-toast a{display:inline-block;padding-block:10px}
 }
 .rp-l{display:inline-block;padding-block:10px}
+
+.f-cities{margin-top:32px;padding-top:24px;border-top:1px solid rgba(255,255,255,.14);font-size:.9rem;line-height:2;color:rgba(255,255,255,.7)}
+.f-cities span{font-weight:600;margin-right:6px;color:#fff}
+.f-cities a{color:rgba(255,255,255,.78);margin-right:12px;white-space:nowrap}
+.f-cities a:hover{color:#fff;text-decoration:underline}
