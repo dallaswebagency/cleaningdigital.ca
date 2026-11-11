@@ -1042,3 +1042,5 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #DA
 .f-cities span{font-weight:600;margin-right:6px;color:#fff}
 .f-cities a{color:rgba(255,255,255,.78);margin-right:12px;white-space:nowrap}
 .f-cities a:hover{color:#fff;text-decoration:underline}
+
+@media(min-width:1121px) and (max-width:1380px){.menu>li>a{padding:0 8px;font-size:.95rem}.menu{gap:0}}
