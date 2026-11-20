@@ -1107,3 +1107,32 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #DA
 .lp-svc a{border-radius:16px;padding:var(--s5)}
 .lp-svc .lp-ico{margin:0}
 @media (max-width:900px){.lp-factbox{grid-template-columns:1fr}}
+
+/* brief: value strip + challenge rows */
+.lp-value{background:#fff;border-bottom:1px solid var(--line)}
+.lp-value .container{display:grid;grid-template-columns:repeat(4,1fr)}
+.lp-value .v{display:flex;gap:14px;align-items:flex-start;padding:var(--s6) var(--s5);border-left:1px solid var(--line)}
+.lp-value .v:first-child{border-left:0;padding-left:0}
+.lp-value .v .lp-ico{width:44px;height:44px;margin:0;border-radius:12px}
+.lp-value .v .lp-ico svg{width:22px;height:22px}
+.lp-value h3{font-size:1rem;margin-bottom:4px}
+.lp-value p{font-size:.9rem;line-height:1.5;color:var(--muted)}
+.lp-rows-wrap{display:grid;grid-template-columns:5fr 7fr;gap:var(--s8);align-items:start}
+.lp-rows-wrap .lp-stick{position:sticky;top:120px}
+.lp-rows{border-top:1px solid #E3C3C9}
+.lp-row{display:grid;grid-template-columns:72px 1fr;gap:var(--s4);padding:var(--s5) 0;border-bottom:1px solid #E3C3C9}
+.lp-row .n{font-family:var(--head);font-weight:800;font-size:2.2rem;line-height:1;color:var(--accent)}
+.lp-row h3{font-size:1.2rem;margin-bottom:6px}
+.lp-row p{color:var(--charcoal);line-height:1.6}
+@media (max-width:900px){.lp-value .container{grid-template-columns:1fr 1fr}.lp-value .v{padding:var(--s4) var(--s3)}.lp-value .v:nth-child(odd){border-left:0;padding-left:0}.lp-rows-wrap{grid-template-columns:1fr;gap:var(--s6)}.lp-rows-wrap .lp-stick{position:static}.lp-row{grid-template-columns:52px 1fr}}
+@media (max-width:560px){.lp-value .container{grid-template-columns:1fr}.lp-value .v{border-left:0;padding-left:0}}
+
+/* paired CTAs */
+.cta-inline{display:flex;gap:12px;flex-wrap:wrap}
+.cta-mid{background:var(--tint);border-block:1px solid #EED4D8;padding:var(--s6) 0}
+.cta-mid-in{display:flex;align-items:center;justify-content:space-between;gap:var(--s5);flex-wrap:wrap}
+.cta-mid-in b{display:block;font-family:var(--head);font-size:1.25rem;color:var(--ink)}
+.cta-mid-in span{color:var(--charcoal)}
+.cta-mid-btns{display:flex;gap:12px;flex-wrap:wrap}
+.cta-band .btn-outline-light{border-color:#fff}
+@media (max-width:560px){.cta-mid-btns,.cta-inline{width:100%}}
