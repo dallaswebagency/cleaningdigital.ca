@@ -59,4 +59,4 @@
 - [Schema Markup for Cleaning Companies: What It Is and What to Add](https://cleaningdigital.ca/schema-markup-for-cleaning-companies.html): Schema markup helps search engines and AI tools understand your cleaning business. Here is what to add and what to skip.
 
 ## Contact
-- Email: nakul@cleaningdigital.ca
+- Email: nakul@dallaswebagency.us
