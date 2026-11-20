@@ -1136,3 +1136,4 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #DA
 .cta-mid-btns{display:flex;gap:12px;flex-wrap:wrap}
 .cta-band .btn-outline-light{border-color:#fff}
 @media (max-width:560px){.cta-mid-btns,.cta-inline{width:100%}}
+.lp-row{grid-template-columns:1fr}
